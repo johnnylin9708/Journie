@@ -32,7 +32,7 @@ import Animated, {
   useSharedValue,
 } from "react-native-reanimated";
 
-import { ScheduleListItem } from "@/components/ScheduleListItem";
+import { ItineraryListItem } from "@/components/ItineraryListItem";
 import TripInfoModal from "@/components/TripInfoModal";
 
 const { width } = Dimensions.get("window");
@@ -195,7 +195,7 @@ const ListingDetails = () => {
           }}
           renderItem={({ item }) => {
             return (
-              <ScheduleListItem
+              <ItineraryListItem
                 item={item}
                 viewableItems={viewableItems}
                 onPress={openModal}

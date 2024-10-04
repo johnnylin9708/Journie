@@ -17,13 +17,13 @@ type ListItemProps = {
   viewableItems: Animated.SharedValue<ViewToken[]>;
   item: {
     id: number;
-    itinerarys: ItineraryType[];
+    itineraries: ItineraryType[];
     day: number;
   };
   onPress: (itinerary: ItineraryType) => void;
 };
 
-const ScheduleListItem: React.FC<ListItemProps> = React.memo(
+const ItineraryListItem: React.FC<ListItemProps> = React.memo(
   ({ item, viewableItems, onPress }) => {
     const rStyle = useAnimatedStyle(() => {
       const isVisible = Boolean(
@@ -41,22 +41,22 @@ const ScheduleListItem: React.FC<ListItemProps> = React.memo(
         ],
       };
     }, []);
-
     return (
       <>
         <Text style={styles.title}>Day {item.day}</Text>
-        {item.itinerarys.map((itinerary) => (
-          <TouchableOpacity onPress={() => onPress(itinerary)}>
-            <Animated.View style={[styles.listItem, rStyle]}>
-              <View style={styles.contentWrapper}>
-                <Text style={styles.timeText}>Time:{itinerary.time}</Text>
-                <Text style={styles.itineraryText}>
-                  Itinerary:{itinerary.itinerary}
-                </Text>
-              </View>
-            </Animated.View>
-          </TouchableOpacity>
-        ))}
+        {item.itineraries &&
+          item.itineraries.map((itinerary) => (
+            <TouchableOpacity onPress={() => onPress(itinerary)}>
+              <Animated.View style={[styles.listItem, rStyle]}>
+                <View style={styles.contentWrapper}>
+                  <Text style={styles.timeText}>Time:{itinerary.time}</Text>
+                  <Text style={styles.itineraryText}>
+                    Itinerary:{itinerary.itinerary}
+                  </Text>
+                </View>
+              </Animated.View>
+            </TouchableOpacity>
+          ))}
       </>
     );
   }
@@ -95,4 +95,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export { ScheduleListItem };
+export { ItineraryListItem };

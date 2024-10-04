@@ -9,8 +9,8 @@
     "duration": "3",
     "location": "Pacific Ocean",
     "category": "Beaches",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "2",
@@ -22,8 +22,8 @@
     "duration": "4",
     "location": "Switzerland",
     "category": "Mountains",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "3",
@@ -35,8 +35,8 @@
     "duration": "2",
     "location": "USA",
     "category": "Cities",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "4",
@@ -48,8 +48,8 @@
     "duration": "5",
     "location": "USA",
     "category": "Forests",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "5",
@@ -61,8 +61,8 @@
     "duration": "3",
     "location": "England",
     "category": "Lakes",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "6",
@@ -74,8 +74,8 @@
     "duration": "2",
     "location": "Maldives",
     "category": "Beaches",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "7",
@@ -87,8 +87,8 @@
     "duration": "7",
     "location": "Canada",
     "category": "Mountains",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "8",
@@ -100,8 +100,8 @@
     "duration": "3",
     "location": "Japan",
     "category": "Cities",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "9",
@@ -113,8 +113,8 @@
     "duration": "2",
     "location": "Brazil",
     "category": "Forests",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "10",
@@ -126,8 +126,8 @@
     "duration": "3",
     "location": "USA",
     "category": "Lakes",
-    "schedules":[{"day":1,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]},
-    {"day":2,"events":[{"time":"12:00-13:00","event":"lunch"},{"time":"9:00-10:00","event":"breakfast"}]}]
+    "schedules":[{"day":1,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]},
+    {"day":2,"itineraries":[{"time":"12:00-13:00","itinerary":"lunch"},{"time":"9:00-10:00","itinerary":"breakfast"}]}]
   },
   {
     "id": "11",
